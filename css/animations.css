@@ -1,0 +1,182 @@
+/* =================================
+SECTION REVEAL ANIMATION
+================================= */
+
+section{
+opacity:0;
+transform:translateY(60px);
+transition:all .8s ease;
+}
+
+section.visible{
+opacity:1;
+transform:translateY(0);
+}
+
+
+/* =================================
+HERO TEXT REVEAL
+================================= */
+
+.hero-title{
+opacity:0;
+transform:translateY(40px);
+animation:titleReveal 1s ease forwards;
+animation-delay:.2s;
+}
+
+.hero-subtitle{
+opacity:0;
+transform:translateY(40px);
+animation:titleReveal 1s ease forwards;
+animation-delay:.4s;
+}
+
+.hero-description{
+opacity:0;
+transform:translateY(40px);
+animation:titleReveal 1s ease forwards;
+animation-delay:.6s;
+}
+
+.hero-buttons{
+opacity:0;
+transform:translateY(40px);
+animation:titleReveal 1s ease forwards;
+animation-delay:.8s;
+}
+
+.hero-container{
+animation:heroFloat 10s ease-in-out infinite;
+}
+
+@keyframes heroFloat{
+0%{transform:translateY(0)}
+
+50%{transform:translateY(-6px)}
+
+100%{transform:translateY(0)}
+}
+
+
+@keyframes titleReveal{
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+
+/* =================================
+LAPTOP FLOAT
+================================= */
+
+.hero-laptop{
+animation:laptopFloat 6s ease-in-out infinite;
+}
+
+@keyframes laptopFloat{
+
+0%{transform:translateY(0)}
+50%{transform:translateY(-15px)}
+100%{transform:translateY(0)}
+
+}
+
+
+/* =================================
+THEME REVEAL ANIMATION
+================================= */
+
+.mystery{
+
+animation:mysteryPulse 2.5s infinite;
+
+}
+
+@keyframes mysteryPulse{
+
+0%{
+transform:scale(1);
+box-shadow:0 0 0 rgba(255,214,0,.0);
+}
+
+50%{
+transform:scale(1.1);
+box-shadow:0 0 20px rgba(255,214,0,.7);
+}
+
+100%{
+transform:scale(1);
+box-shadow:0 0 0 rgba(255,214,0,.0);
+}
+
+}
+
+
+/* =================================
+PRIZE GLOW
+================================= */
+
+.prize-amount{
+
+animation:prizeGlow 3s infinite;
+
+}
+
+@keyframes prizeGlow{
+
+0%{
+text-shadow:0 0 10px rgba(255,214,0,.4);
+}
+
+50%{
+text-shadow:0 0 30px rgba(255,214,0,.9);
+}
+
+100%{
+text-shadow:0 0 10px rgba(255,214,0,.4);
+}
+
+}
+
+
+/* =================================
+CARD HOVER EFFECT
+================================= */
+
+.highlight-card,
+.contact-card,
+.detail-item{
+
+transition:.35s;
+
+}
+
+.highlight-card:hover,
+.contact-card:hover,
+.detail-item:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 0 20px rgba(255,214,0,.4);
+
+}
+
+/*orbit section*/
+
+.orbit-icon{
+
+animation:orbitFloat 5s ease-in-out infinite;
+
+}
+
+@keyframes orbitFloat{
+
+0%{transform:translateY(0)}
+
+50%{transform:translateY(-10px)}
+
+100%{transform:translateY(0)}
+
+}
