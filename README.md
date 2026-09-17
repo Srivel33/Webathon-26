@@ -3,10 +3,6 @@
 > **AI-Powered Web Design Challenge** — TEXPERIA'26 | SNS College of Technology
 
 ![Live Demo](https://img.shields.io/badge/Live%20Demo-webathon--26.netlify.app-00C7B7?style=flat-square&logo=netlify&logoColor=white)
-![Event Date](https://img.shields.io/badge/Date-13%20March%202026-FFD600?style=flat-square&labelColor=000)
-![Team Size](https://img.shields.io/badge/Team%20Size-2--4%20Members-FFD600?style=flat-square&labelColor=000)
-![Registration](https://img.shields.io/badge/Registration-Open-brightgreen?style=flat-square&labelColor=000)
-![Prize](https://img.shields.io/badge/Prize%20Pool-%E2%82%B910%2C000-FFD600?style=flat-square&labelColor=000)
 
 🌐 **Live Website:** [https://webathon-26.netlify.app/](https://webathon-26.netlify.app/)
 
@@ -16,21 +12,7 @@
 
 **WEBATHON** is an AI-powered web design hackathon hosted as part of **TEXPERIA 2026**, the annual technical fest of the **Department of AIML & IT** at **SNS College of Technology, Coimbatore**.
 
-Teams compete to design and build innovative, responsive websites using modern web technologies and AI-assisted development tools — all within a tight time limit around a theme revealed on the day of the event.
-
----
-
-## Event Details
-
-| Field | Info |
-|---|---|
-| **Event** | WEBATHON 2026 |
-| **Date** | 13 March 2026 |
-| **Time** | 9:30 AM – 3:30 PM |
-| **Venue** | DT Playhouse, SNS College of Technology |
-| **Team Size** | 2 – 4 Members |
-| **Registration Fee** | ₹200 per head |
-| **Prize Pool** | Up to ₹10,000 |
+This repository contains the static front-end website created for the event. Teams competed to design and build innovative, responsive websites using modern web technologies and AI-assisted development tools.
 
 ---
 
@@ -71,8 +53,6 @@ webathon/
     │   └── venue.jpg       # DT Playhouse venue photo
     ├── logos/
     │   └── sns-logo.png    # SNS College of Technology logo
-    └── pdf/
-        └── rules.pdf       # Official event rules document
 ```
 
 ---
@@ -86,8 +66,6 @@ webathon/
 - **Flip Countdown** — 3D card flip countdown to event date with progress bar
 - **Scroll Reveal** — Sections and elements animate in on scroll
 - **Responsive Design** — Fully mobile-responsive across all screen sizes
-- **Embedded Map** — Google Maps iframe with direct link for navigation
-- **Register Button** — Links directly to the Google Form registration
 
 ---
 
@@ -111,50 +89,6 @@ git clone https://github.com/Srivel33/Webathon-26.git
 Or use the **Live Server** extension in VS Code:
 1. Right-click index.html
 2. Select **"Open with Live Server"**
-
----
-
-## Registration
-
-Register your team via the official Google Form:
-
-**[👉 Register Now](https://docs.google.com/forms/d/e/1FAIpQLSdMc96btf681TDoJEOpTJell4vm-40Cn9QC9SG4mqke-Zls6A/viewform)**
-
----
-
-## WhatsApp Group
-
-Join the participant WhatsApp group for updates and announcements:
-
-**[📱 Join WhatsApp Group](https://chat.whatsapp.com/LfB8l6K7cjqJIeQOKJHqH6)**
-
----
-
-## Event Rules
-
-Download the official rules document:
-
-**[📄 Download Rules PDF](assets/pdf/rules.pdf)**
-
----
-
-## Contact
-
-For queries, reach out to the event coordinators:
-
-| Name | Department | Phone |
-|---|---|---|
-| Srivel T | 2nd Year AIML | 📞 9025575864 |
-| Syed Mohammed Shahith | 2nd Year AIML | 📞 9445178284 |
-
----
-
-## Location
-
-**DT Playhouse, SNS College of Technology**
-Coimbatore, Tamil Nadu
-
-[📍 Open in Google Maps](https://maps.app.goo.gl/c5axhqDpFf58U2Dh6)
 
 ---
 
