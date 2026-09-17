@@ -1,97 +1,80 @@
-# WEBATHON 2026
+# WEBATHON 2026 — Landing Page
 
-> **AI-Powered Web Design Challenge** — TEXPERIA'26 | SNS College of Technology
+A sleek, responsive landing page created for the **Webathon** challenge at **TEXPERIA '26**. Built with vanilla web technologies, dynamic micro-interactions, custom particle effects, and GSAP animations.
 
-![Live Demo](https://img.shields.io/badge/Live%20Demo-webathon--26.netlify.app-00C7B7?style=flat-square&logo=netlify&logoColor=white)
-
-🌐 **Live Website:** [https://webathon-26.netlify.app/](https://webathon-26.netlify.app/)
+🌐 **Live Demo:** [https://webathon-26.netlify.app/](https://webathon-26.netlify.app/)
 
 ---
 
-## About
+## 🚀 Overview
 
-**WEBATHON** is an AI-powered web design hackathon hosted as part of **TEXPERIA 2026**, the annual technical fest of the **Department of AIML & IT** at **SNS College of Technology, Coimbatore**.
-
-This repository contains the static front-end website created for the event. Teams competed to design and build innovative, responsive websites using modern web technologies and AI-assisted development tools.
+This repository contains the complete frontend codebase for the **Webathon 2026** landing page. The interface is designed with a modern, dark cyberpunk aesthetic featuring glassmorphism, interactive mouse-driven 3D elements, and smooth visual transitions.
 
 ---
 
-## Tech Stack
+## ✨ Features
 
-This is a **static front-end website** with no build tools or dependencies required.
+- **⚡ Animated Preloader** — Glitch text shuffle and progress counter for smooth entry.
+- **🎯 Custom Cursor** — Interactive dot & ring cursor with magnetic hover snapping and ripple effects.
+- **✨ Particle Canvas** — Ambient floating particle system running seamlessly in the background.
+- **💻 3D Interactive Hero** — Mouse-tracking 3D tilt effect on the hero display element.
+- **⏳ 3D Flip Countdown** — Live countdown timer featuring card-flip physics and progress indicators.
+- **📜 Scroll Animations** — Staggered section reveals and fluid scroll transitions.
+- **📱 Fully Responsive** — Tailored layouts optimized across mobile, tablet, and ultra-wide screens.
 
-| Layer | Technology |
+---
+
+## 🛠️ Tech Stack
+
+Built entirely with standard web technologies — zero heavy build frameworks or complex dependencies needed.
+
+| Technology | Purpose |
 |---|---|
-| Structure | HTML5 (Semantic) |
-| Styling | Vanilla CSS3 (Custom Properties, Grid, Flexbox) |
-| Animations | CSS Keyframes + GSAP (local) |
-| Interactivity | Vanilla JavaScript (ES6+) |
-| Fonts | Google Fonts (Poppins, Montserrat) |
+| **HTML5** | Semantic structure and SEO-friendly layout |
+| **CSS3** | Modern styling, CSS variables, Flexbox & CSS Grid |
+| **JavaScript (ES6+)** | Dynamic UI logic, particles, and custom interactions |
+| **GSAP** | Hardware-accelerated UI and hero reveal animations |
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 webathon/
-├── index.html              # Main HTML page (single-page layout)
+├── index.html              # Main HTML markup
 ├── css/
-│   ├── style.css           # Core design system & component styles
-│   ├── animations.css      # Keyframe animations & reveal effects
-│   └── responsive.css      # Media queries (1024px, 768px, 480px)
+│   ├── style.css           # Design tokens, base layout & components
+│   ├── animations.css      # Keyframes and CSS transition effects
+│   └── responsive.css      # Breakpoints (1024px, 768px, 480px)
 ├── js/
-│   ├── main.js             # Loader, scroll reveal, GSAP hero animations
-│   ├── countdown.js        # Flip countdown timer with progress bar
-│   ├── cursor.js           # Custom cursor dot + ring system
-│   ├── particles.js        # Floating background particle effect
-│   └── hero-3d.js          # Mouse-driven 3D laptop tilt on hero section
+│   ├── main.js             # Page loader & scroll reveal logic
+│   ├── countdown.js        # Countdown timer logic
+│   ├── cursor.js           # Custom magnetic cursor
+│   ├── particles.js        # Canvas background particles
+│   └── hero-3d.js          # Mouse-tracking 3D tilt interaction
 ├── libs/
-│   └── gsap.js             # GSAP animation library (local copy)
+│   └── gsap.js             # GSAP animation library
 └── assets/
-    ├── images/
-    │   ├── laptop.png      # Hero section laptop illustration
-    │   └── venue.jpg       # DT Playhouse venue photo
-    ├── logos/
-    │   └── sns-logo.png    # SNS College of Technology logo
+    ├── images/             # Visual assets & mockups
+    └── logos/              # Event & branding logos
 ```
 
 ---
 
-## Features
+## 💻 Getting Started
 
-- **Animated Loader** — Glitch text shuffle + striped progress bar with live percentage
-- **Custom Cursor** — Dot + ring cursor with hover magnetic effect and click ripple
-- **Particle Background** — Floating yellow particles throughout the page
-- **Hero 3D Effect** — Laptop image tilts in 3D following mouse position
-- **Flip Countdown** — 3D card flip countdown to event date with progress bar
-- **Scroll Reveal** — Sections and elements animate in on scroll
-- **Responsive Design** — Fully mobile-responsive across all screen sizes
-
----
-
-## Getting Started
-
-### Live Deployment
-
-Access the live hosted site directly:
-👉 **[https://webathon-26.netlify.app/](https://webathon-26.netlify.app/)**
-
-### Run Locally
-
+### 1. Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/Srivel33/Webathon-26.git
-
-# Open in browser
-# Open index.html directly in Chrome / Firefox / Edge
 ```
 
-Or use the **Live Server** extension in VS Code:
-1. Right-click index.html
-2. Select **"Open with Live Server"**
+### 2. Run locally
+No installation or build steps are required. Simply open `index.html` in any modern web browser:
+- Double-click `index.html`, or
+- Use the **Live Server** extension in VS Code.
 
 ---
 
-## License
+## 👤 Author
 
-© 2026 SNS College of Technology — All Rights Reserved.
+Developed by **Srivel** for **TEXPERIA '26 Webathon**.
